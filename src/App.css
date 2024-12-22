@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.form_container {
+    margin: 30px auto;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.label_container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.label_container label {
+    display: inline-block;
+    width: 10%;
+    padding-top: 7px;
+}
+
+.label_container input {
+    display: inline-block;
+    padding: 7px 13px;
+}
+
+.form_container button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #2e9af9;
+    color: #fff;
+}
+
+.form_container button:hover {
+    background: #0c85ee;
+    cursor: pointer;
+    transition: 1s;
+}
+
+tbody tr td button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #2e9af9;
+    color: #fff;
+}
+
+tbody tr td button:hover {
+    background: #0c85ee;
+    cursor: pointer;
+    transition: 1s;
+}
