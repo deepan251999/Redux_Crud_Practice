@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container form {
+    width: 40%;
+    margin: auto;
+}
+
+.label_container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.label_container label {
+    width: 100px;
+    display: inline-block;
+    font-size: 17px;
+    padding-top: 7px;
+}
+
+.label_container input {
+    width: 50%;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.container button {
+    padding: 8px 13px;
+    border-radius: 8px;
+    background: rgb(61, 156, 228);
+    color: #fff;
+    border: none;
+    margin: auto;
+}
+
+.container button:hover{
+    background: rgb(7, 127, 219);
+    cursor: pointer;
+    transition: 1s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    background-color: rgb(61, 156, 228);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:1s;
+  }
+  
+  button:hover {
+    background-color: rgb(7, 127, 219);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
